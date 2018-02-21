@@ -1,111 +1,95 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Грибы</title>
-		<meta charset="utf-8">
-			<meta name="description" content="Страница продуктах леса: грибах. О покупке грибов">
-			<meta name= "keywords" content = "лес, грибы, подосиновик, боровик, купить, продажа">
-		<link href="normalize.css" rel="stylesheet">
-		<link href="css/styles.css" rel="stylesheet">
-	</head>
-	<body>
-	<div id="wrapper">
-			<header>
-					<a href="index.html">
-							<img src="img/log.jpg" title="Перейти на главную" alt="Логотип">
-					</a>
-			<div id="logo">
-					<p><a href="mailto:evaln@mail.ru?subject=Заказ" title="Заказ на Дары леса на адрес evaln@mail.ru">Заказ по почте</a></p>
-			</div>
-			</header>
-			<hr>
-			<menu>
-				<a href="index.html">Главная</a>
-				<a href="daru.html">Дары леса</a>
-				<strong >Грибы</strong>
-				<a href="cranberry.html">Клюква</a>
-				<a href="blueberry.html">Черника</a>
-				<a href="news.html">Новости</a>
-				<a href="contacts.html">Контакты</a>
-			</menu>
-		<hr>
-		<div id = "center">
-			<h1>Грибы</h1>
-			<figure class="boletus"></figure>
-			<p>Грибы давно вошли в наш рацион питания. С каждым годом только укрепляют свои позиции среди продуктов питания. В России грибы в качестве пищи особенно популярны и являются уже давно традиционным продуктом.
-			</p>
-			<p>Грибной белок содержит большое количество аминокислот, в том числе незаменимых, и усваивается организмом человека на 80%. По содержанию аминокислот белки грибов сравнимы с животными белками. Потому грибы по питательной ценности сравнивают с мясом. В равных весовых количествах сушёных белых грибов и говядины белков в два раза больше в 
-			<a href="https://fotki.yandex.ru/next/users/moisey-58/album/65293/view/144774?page=0"  target="_blank">
-			белых грибах.
-			</a></p>
-			<p>Грибы богаты солями, микроэлементами, фосфором, железом, калием. Во всех съедобных грибах присутствуют витамины А, B, B1, C, PP. Количество витамина B в грибах не меньше, чем в зерновых продуктах, витамина РР столько же как и в печени, дрожжах.
-			</p>
-			<p>По количеству содержащихся белков, грибы превосходят все овощи. Недостатком являются то, что грибные белки труднее усваиваются. Усвояимость увеличивается при правильном приготовлении грибов: измельчении, варке, жарке. 
-			</p>
-			<ol>
-				<li>Свежие</li>
-				<li>Сушенные
-					<ul>
-						<li>Белые</li>
-						<li>Подосиновики</li>
-					</ul>
-				</li>
-			</ol>
-		</div>
-		<hr>
-		<div id = "left">
-			<p>Заказать</p>
-			<form action="file.php" method="post">
-				Имя<br>			
-				<input type="text" name="name" placeholder="Имя" required><br>
-				Почта<br>			
-				<input type="email" name="email" required><br>
-				Телефон<br>			
-				<input type="tel" name="tel"><br>
-				Заказ<br>			
-				<input type="radio" name="order" value="0">Купить<br>
-				<input type="radio" name="order" value="1">В корзину<br>
-				Ваш отзыв<br>
-				<textarea name="opinion" placeholder="Ваш отзыв"></textarea><br>
-				<hr>
-				<input type="submit" value="Отправить">
-				<input type="reset" value="Сбросить">
-				<input type="button" value="Жми">	
-			</form>
-		</div>
-		<footer>
-			<hr>
-			Все права защищены &copy; 2016-2017 Валерий Егоров
-		</footer>
-	</div>
-	<!-- Yandex.Metrika counter -->
-	<script type="text/javascript">
-		(function (d, w, c) {
-			(w[c] = w[c] || []).push(function() {
-				try {
-					w.yaCounter44709193 = new Ya.Metrika({
-						id:44709193,
-						clickmap:true,
-						trackLinks:true,
-						accurateTrackBounce:true,
-						webvisor:true
-					});
-				} catch(e) { }
-			});
+<head>
+    <title>Грибы</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="О лесных грибах. О покупке грибов">
+    <meta name= "keywords" content = "лес, белки, грибы, витамины">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/tooltipster.bundle.min.css">
+    <link rel="stylesheet" href="css/tooltipster-sideTip-shadow.min.css">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+<div id="wrapper">
+    <div class="flex1">
+        <header>
+            <a href="index.html"><img src="img/strawberry.jpg" title="Главная" alt="Логотип"></a>
+            <div id="logo">ДАРЫ ЛЕСА</div>
+            <a href="mailto:evaln@mail.ru?subject=Заказ" title="Заказ на Дары леса на адрес evaln@mail.ru">Заказ по почте</a>
+        </header>
+        <nav>
+            <a href="index.html">Главная</a>
+            <a href="daru.html">Дары леса</a>
+            <strong >Грибы</strong>
+            <a href="cranberry.html">Клюква</a>
+            <a href="blueberry.html">Черника</a>
+            <a href="news.html">Новости</a>
+            <a href="contacts.html">Контакты</a>
+        </nav>
+        <div class="content">
+            <div id = "center">
+                <h1>Грибы</h1>
+                <figure class="popup">
+                    <a href="img/boletus_big.jpg">
+                        <img src="img/boletus.jpg" alt="Подосиновики рядом">
+                    </a>
+                </figure>
+                <p>Грибы давно вошли в наш рацион питания. С каждым годом только укрепляют свои позиции среди продуктов питания. В России грибы в качестве пищи особенно популярны и являются уже давно традиционным продуктом.
+                </p>
+                <p>Грибной белок содержит большое количество аминокислот, в том числе незаменимых, и усваивается организмом человека на 80%. По содержанию аминокислот белки грибов сравнимы с животными белками. Потому грибы по питательной ценности сравнивают с мясом. В равных весовых количествах сушёных белых грибов и говядины белков в два раза больше в
+                    <a href="https://fotki.yandex.ru/next/users/moisey-58/album/65293/view/144774?page=0"  target="_blank">
+                        белых грибах.
+                    </a></p>
+                <p>Грибы богаты солями, микроэлементами, фосфором, железом, калием. Во всех съедобных грибах присутствуют витамины А, B, B1, C, PP. Количество витамина B в грибах не меньше, чем в зерновых продуктах, витамина РР столько же как и в печени, дрожжах.
+                </p>
+                <p>По количеству содержащихся белков, грибы превосходят все овощи. Недостатком являются то, что грибные белки труднее усваиваются. Усвояимость увеличивается при правильном приготовлении грибов: измельчении, варке, жарке.
+                </p>
+                <ol>
+                    <li>Свежие</li>
+                    <li>Сушенные
+                        <ul>
+                            <li>Белые</li>
+                            <li>Подосиновики</li>
+                        </ul>
+                    </li>
+                </ol>
+            </div>
+            <div id = "left">
+                <p>Заказать</p>
+                <form action="file.php" method="post">
+                    <label for="name">Имя:</label><br>
+                    <input type="text" name="firstname" id="name" placeholder="Имя" size="17" required><br>
+                    <label for="firstname">Почта:</label><br>
+                    <input type="email" name="firstname" id="firstname" size="17" required><br>
+                    <label for="tel">Телефон:</label><br>
+                    <input type="tel" name="tel" id="tel" size="17"><br>
+                    Заказ<br>
+                    <input type="radio" name="order" value="0">
+                    Купить<br>
+                    <input type="radio" name="order" value="1">В корзину<br>
+                    Ваш отзыв:<br>
+                    <textarea name="opinion" placeholder="Ваш отзыв" cols="17"></textarea><br>
+                    <hr>
+                    <input type="submit" value="Отправить"><br>
+                    <input type="reset" value="Сбросить"><br>
+                    <input type="button" value="Жми">
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <hr>
+        &copy; Валерий Егоров, 2016-2018
+    </footer>
+</div>
+<script src="js/jquery.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/tooltipster.bundle.min.js"></script>
+<script src="js/timber.js"></script>
+<script src="js/scripts.js"></script>
 
-			var n = d.getElementsByTagName("script")[0],
-					s = d.createElement("script"),
-					f = function () { n.parentNode.insertBefore(s, n); };
-			s.type = "text/javascript";
-			s.async = true;
-			s.src = "https://mc.yandex.ru/metrika/watch.js";
-
-			if (w.opera == "[object Opera]") {
-				d.addEventListener("DOMContentLoaded", f, false);
-			} else { f(); }
-		})(document, window, "yandex_metrika_callbacks");
-	</script>
-	<noscript><div><img src="https://mc.yandex.ru/watch/44709193" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-	<!-- /Yandex.Metrika counter -->
-	</body>
+</body>
 </html>

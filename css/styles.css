@@ -1,26 +1,25 @@
 body{
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#efe3e3+0,eef9d4+100 */
-	background: #efe3e3; /* Old browsers */
-	background: -moz-linear-gradient(top,  #efe3e3 0%, #eef9d4 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(top,  #efe3e3 0%,#eef9d4 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to bottom,  #efe3e3 0%,#eef9d4 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#efe3e3', endColorstr='#eef9d4',GradientType=0 ); /* IE6-9 */
-	color: #000000; 
+	color: #000000;
 	font-family: Verdana, Arial, sans-serif;
 	font-size: 16px;
 }
+html, body {
+	height: 100%;
+}
 div{
-	border: 1px solid black;
+	//border: 1px solid black;
+}
+img {
+	border: 0;
 }
 strong{
 	font-weight: bold;
+	margin: 19px 0;
 }
-
 footer{
 	height: 45px;
-	clear: both;
-	font-style: italic; 
-	background-color: #EFE3E3;
+	font-style: italic;
+	text-align: center;
 }
 h1{
 	text-align: center;
@@ -34,11 +33,12 @@ h2{
 	font-size: 18px;
 }
 hr {
-	margin: 2px auto;
+	margin: 6px auto;
 }
 section {
-	margin: 10px 70px;
-	height: 180px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
 }
 p{
 	text-indent: 25px;
@@ -53,135 +53,129 @@ a:hover{
 	color: red;
 	text-decoration: none;
 }
-/*Страница Дары леса */
 figure {
 	display: block;
-	//float: left;
 	text-align: center;
-	margin: 6px;
-	//overflow:hidden;
 }
-section figure {
-	float: left;
+figcaption {
+	margin: 15px 0;
 }
-figure img {
+section figure img {
 	width: 200px;
 	-moz-transition: all 1s ease-out;
 	-o-transition: all 1s ease-out;
 	-webkit-transition: all 1s ease-out;
 	transition: all 1s ease-out;
  }
- figure img:hover{         /* Наведение на картинку-ссылку  */ 
- -webkit-transform: scale(1.15);
- -moz-transform: scale(1.15);
- -o-transform: scale(1.15);
- transform: scale(1.15);
+section figure img:hover{
+	 -webkit-transform: scale(1.15);
+	 -moz-transform: scale(1.15);
+	 -o-transform: scale(1.15);
+	 transform: scale(1.15);
  }
-#logo {
-	width: 223px;
-	height: 82px;
-	float: right;
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#c03643+0,c23845+8,c63846+10,cb3a49+19,d84152+37,ffd8d8+100 */
-	background: #c03643; /* Old browsers */
-	background: -moz-linear-gradient(left,  #c03643 0%, #c23845 8%, #c63846 10%, #cb3a49 19%, #d84152 37%, #ffd8d8 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(left,  #c03643 0%,#c23845 8%,#c63846 10%,#cb3a49 19%,#d84152 37%,#ffd8d8 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to right,  #c03643 0%,#c23845 8%,#c63846 10%,#cb3a49 19%,#d84152 37%,#ffd8d8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c03643', endColorstr='#ffd8d8',GradientType=1 ); /* IE6-9 */
+#wrapper{
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#efe3e3+0,eef9d4+100 */
+	background: #efe3e3; /* Old browsers */
+	background: -moz-linear-gradient(bottom,  #efe3e3 0%, #eef9d4 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(bottom,  #efe3e3 0%,#eef9d4 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #efe3e3 0%,#eef9d4 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#efe3e3', endColorstr='#eef9d4',GradientType=0 ); /* IE6-9 */
 }
-#logo a {
+.flex1 {
+	flex: 1;
+}
+header {
+	background-color: #bd3935;
+	padding-right: 7%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 	color: lime;
 	font-weight: bold;
 }
-#logo p {
-	margin: 32px 0;
+
+#logo {
+	font-size: 28px;
 }
-.blueberries {
-	background: url("../img/bilberry.jpg") no-repeat;
-	height: 450px; 
-	width: 600px; 
-	margin: auto;
+header a {
+	color: lime;
+	font-weight: bold;
 }
-.blueberries:hover {
-	background: url("../img/blueberries_big.jpg") no-repeat;
-	height: 663px; 
-	width: 900px; 
-	border: 2px solid #336633;
-	transition: all 1s;
+nav {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	background: #fcc;
+	box-shadow: 0 4px 24px rgba(0,0,0,0.25), 0 6px 10px rgba(0,0,0,0.22);
+}
+nav  a{
+	text-decoration: none;
+	font-size: 18px;
+	margin: 10px 0;
+	padding: 8px;
+}
+nav a:hover {
+	box-shadow: 0 0 0 2px #efc0a0 inset, 0 0 0 4px green inset;
 }
 
-
-.timber {
-	background: url("../img/timber.jpg") no-repeat;
-	height: 450px; 
-	width: 600px; 
-	margin: auto;
-}
-.timber:hover {
-	background: url("../img/raspberry_big.jpg") no-repeat;
-	height: 663px; 
-	width: 900px; 
-	border: 2px solid #336633;
-	transition: all 1s;
-}
-.cranberry {
-	background: url("../img/cranberry.JPG") no-repeat;
-	height: 450px; 
-	width: 600px; 
-	margin: auto;
-}
-.cranberry:hover {
-	background: url("../img/cranberry_big.jpg") no-repeat;
-	height: 663px; 
-	width: 900px; 
-	border: 2px solid #336633;
-	transition: all 1s;
-}
-.boletus {
-	background: url("../img/boletus.jpg") no-repeat;
-	height: 450px; 
-	width: 600px; 
-	margin: auto;
-}
-.boletus:hover {
-	background: url("../img/boletus_big.jpg") no-repeat;
-	height: 663px; 
-	width: 900px; 
-	border: 2px solid #336633;
-	transition: all 1s;
-}
-#wrapper{
-	max-width: 960px;
-	margin: 0 auto;
-	//height: inherit;
+.content {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 #center{
-	//min-height: 700px;
-	width: 85%;
-	float: right;
+	padding: 0 15px;
+	width: 80%;
 }
 #center p:first-letter{
 	color: green;
 	font-size: 20px;
 }
+.slider {
+	max-width: 600px;
+	margin: 0 auto;
+}
+.slick-prev:before, .slick-next:before, .slick-dots li.slick-active button:before {
+	color: green;
+}
 #left{
-	//min-height: 250px;
-	overflow: auto;
-	//max-width: 14.6%;
+	padding: 15px;
+	max-width: 19.6%;
 }
-menu {
-	display: inline-block;
-	background: #fcc;
-	border-radius: 10px;
-	padding: 5px;
-	margin: 0 30px;
+#left img {
+	padding-top: 20px;
 }
-menu  a{
-	text-decoration: none;
-	font-size: 18px;
-	margin: 25px;
+#left a {
+	display: block;
 	text-align: center;
 }
 #news p{
 	margin: 10px 20px;
+	padding-bottom: 5px;
 	text-indent: 0;
-}	
+}
+#news img, #news_hidden img {
+	width: 300px;
+}
+#show-block {
+	padding: 5px;
+	border: double;
+	border-radius: 5px;
+	text-decoration: none;
+}
+@media screen and (max-width: 670px) and (min-width: 515px){
+	img, .big figure img, .timber {
+		width: 100%;
+	}
+}
+@media screen and (max-width: 514px) and (min-width: 320px) {
+	img, .big figure img, .timber {
+		width: 100%;
+	}
+	header {
+		flex-wrap: wrap;
+	}
+}

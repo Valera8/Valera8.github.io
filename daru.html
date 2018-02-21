@@ -1,95 +1,78 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Дары леса</title>
-		<meta charset="utf8">
-			<meta name="description" content="Страница о лесе, продуктах леса: ягодах, грибах. О покупке лесных продуктов">
-			<meta name= "keywords" content = "лес, грибы, ягоды, малина, черника, морошка, клюква, брусника, подосиновик, боровик, купить, продажа">
-		<link href="normalize.css" rel="stylesheet">
-		<link href="css/styles.css" rel="stylesheet">
-	</head>
-	<body>
-	<div id="wrapper">
-			<header>
-					<a href="index.html">
-							<img src="img/log.jpg" title="Перейти на главную" alt="Логотип">
-					</a>
-			<div id="logo">
-					<p><a href="mailto:evaln@mail.ru?subject=Заказ" title="Заказ на Дары леса на адрес evaln@mail.ru">Заказ по почте</a></p>
-			</div>
-			</header>
-			<hr>
-			<menu>
-			<a class="a1" href="index.html">Главная</a>
-			<strong class="a1" >Дары леса</strong>
-			<a href="mushrooms.html">Грибы</a>
-			<a href="cranberry.html">Клюква</a>
-			<a href="blueberry.html">Черника</a>
-			<a href="news.html">Новости</a>
-			<a href="contacts.html">Контакты</a>
-			</menu>
-		<hr>
-		<div id = "center">
-			<h1>Дары леса</h1>
-			<section>
-			<figure>
-					<a href="mushrooms.html" title="Перейти на Грибы">
-						<img src="img/boletus_copi.jpg" title="Грибы" alt="Подосиновики">
-						<figcaption>Грибы</figcaption>
-					</a>				
-			</figure>
-			<figure>
-			<a href="cranberry.html" title="Перейти на Клюква">
-				<img src="img/cranberry_copi.jpg" title="Клюква"  alt="Ведро клюквы">
-				<figcaption>Клюква</figcaption>
-			</a>
-			</figure>
-			<figure>
-			<a href="blueberry.html" title="Перейти на Черника">
-				<img src="img/bilberry_copi.jpg" title="Черника"  alt= "Ведро черники">
-				<figcaption>Черника</figcaption>
-			</a>
-			</figure>
-			</section>
-			<p>Лес богат различными продуктами для питания. Они отличаются высокой экологичностью. Кроме этого это кладезь витаминов.
-			</p>
-		</div>
-		<div id = "left">
-		<a href="http://lori.ru/?ref=42279" target="_blank"><img src="//lori.ru/random-banner/img/banners/120x240" width="120" height="240" border="0" alt="Фотобанк Лори: продажа фотографий и иллюстраций"></a>
-		</div>
-		<footer>
-			<hr>
-			Все права защищены &copy; 2016-2017 Валерий Егоров
-		</footer>
-	</div>
-	<!-- Yandex.Metrika counter -->
-	<script type="text/javascript">
-		(function (d, w, c) {
-			(w[c] = w[c] || []).push(function() {
-				try {
-					w.yaCounter44709193 = new Ya.Metrika({
-						id:44709193,
-						clickmap:true,
-						trackLinks:true,
-						accurateTrackBounce:true,
-						webvisor:true
-					});
-				} catch(e) { }
-			});
-
-			var n = d.getElementsByTagName("script")[0],
-					s = d.createElement("script"),
-					f = function () { n.parentNode.insertBefore(s, n); };
-			s.type = "text/javascript";
-			s.async = true;
-			s.src = "https://mc.yandex.ru/metrika/watch.js";
-
-			if (w.opera == "[object Opera]") {
-				d.addEventListener("DOMContentLoaded", f, false);
-			} else { f(); }
-		})(document, window, "yandex_metrika_callbacks");
-	</script>
-	<noscript><div><img src="https://mc.yandex.ru/watch/44709193" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-	<!-- /Yandex.Metrika counter -->
-	</body>
+<head>
+    <title>Дары леса</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="О лесе, продуктах леса: ягодах, грибах. О покупке лесных продуктов">
+    <meta name= "keywords" content = "Сайт, леса, продажа, дары, грибы, ягоды">
+    <link rel="stylesheet" href="css/tooltipster.bundle.min.css">
+    <link rel="stylesheet" href="css/tooltipster-sideTip-shadow.min.css">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+<div id="wrapper">
+    <div class="flex1">
+        <header>
+            <a href="index.html"><img src="img/strawberry.jpg" title="Главная" alt="Логотип"></a>
+            <div id="logo">ДАРЫ ЛЕСА</div>
+            <a href="mailto:evaln@mail.ru?subject=Заказ" title="Заказ на Дары леса на адрес evaln@mail.ru">Заказ по почте</a>
+        </header>
+        <nav>
+            <a class="a1" href="index.html">Главная</a>
+            <strong class="a1" >Дары леса</strong>
+            <a href="mushrooms.html">Грибы</a>
+            <a href="cranberry.html">Клюква</a>
+            <a href="blueberry.html">Черника</a>
+            <a href="news.html">Новости</a>
+            <a href="contacts.html">Контакты</a>
+        </nav>
+        <div class="content">
+            <div id = "center">
+                <h1>Дары леса</h1>
+                <section>
+                    <a href="mushrooms.html" title="Перейти на Грибы">
+                        <figure>
+                            <img src="img/boletus_copi.jpg" title="Грибы" alt="Подосиновики">
+                            <figcaption><h2>Грибы</h2></figcaption>
+                        </figure>
+                    </a>
+                    <a href="cranberry.html" title="Перейти на Клюква">
+                        <figure>
+                            <img src="img/cranberry_copi.jpg" title="Клюква"  alt="Ведро клюквы">
+                            <figcaption><h2>Клюква</h2></figcaption>
+                        </figure>
+                    </a>
+                    <a href="blueberry.html" title="Перейти на Черника">
+                        <figure>
+                            <img src="img/bilberry_copi.jpg" title="Черника"  alt= "Ведро черники">
+                            <figcaption><h2>Черника</h2></figcaption>
+                        </figure>
+                    </a>
+                </section>
+                <article>
+                    <h2>Чистая экология</h2>
+                    <p>Лес богат различными продуктами для питания. Они отличаются высокой экологичностью. Кроме этого это кладезь витаминов. Именно карельские леса славятся своей первозданной чистотой, не затронутой техногенной цивилизацией. На сайте представлена продукция лесов Южной Карелии.
+                    </p>
+                </article>
+            </div>
+            <div id = "left">
+                <span class="tooltip" title="Бесплатный подробный курс по HTML и CSS с упражнениями">
+                    <a href="https://srs.myrusakov.ru/freemakeup2?ref=ktcybr2448" target="_blank">
+                        <img src="img/rusakov.png" alt="HTML и CSS для начинающих" />
+                    </a>
+                </span>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <hr>
+        &copy; Валерий Егоров, 2016-2018
+    </footer>
+</div>
+<script src="js/jquery.js"></script>
+<script src="js/tooltipster.bundle.min.js"></script>
+<script src="js/scripts.js"></script>
+</body>
 </html>
