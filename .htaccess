@@ -1,2 +1,1 @@
-RewriteEngine On
 Redirect 301 /index.html https://valera8.github.io
