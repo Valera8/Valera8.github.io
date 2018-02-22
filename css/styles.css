@@ -6,9 +6,9 @@ body{
 html, body {
 	height: 100%;
 }
-div{
-	//border: 1px solid black;
-}
+/*div{*/
+	/*border: 1px solid black;*/
+/*}*/
 img {
 	border: 0;
 }
@@ -96,7 +96,9 @@ header {
 	color: lime;
 	font-weight: bold;
 }
-
+#padd {
+	padding-bottom: 3px;
+}
 #logo {
 	font-size: 28px;
 }
