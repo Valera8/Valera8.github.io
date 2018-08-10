@@ -168,12 +168,44 @@ nav a:hover {
 	border-radius: 5px;
 	text-decoration: none;
 }
+@media screen and (min-width: 1272px) {
+	.yandex-adaptive {
+		width: 160px;
+		height: 600px;
+	}
+}
+@media screen and (max-width: 1271px) and (min-width: 671px) {
+	#left{
+		width: 380px;
+		margin: 0 auto;
+	}
+	.yandex-adaptive {
+		width: 300px;
+		height: 600px;
+	}
+}
 @media screen and (max-width: 670px) and (min-width: 515px){
+	#left{
+		width: 380px;
+		margin: 0 auto;
+	}
+	.yandex-adaptive {
+		width: 300px;
+		height: 600px;
+	}
 	img, .big figure img, .timber {
 		width: 100%;
 	}
 }
 @media screen and (max-width: 514px) and (min-width: 320px) {
+	#left{
+		width: 380px;
+		margin: 0 auto;
+	}
+	.yandex-adaptive {
+		width: 300px;
+		height: 600px;
+	}
 	img, .big figure img, .timber {
 		width: 100%;
 	}
