@@ -144,11 +144,11 @@ nav a:hover {
 	color: green;
 }
 #left{
-	padding: 15px;
-	max-width: 19.6%;
+	padding: 10px;
+	max-width: 21.5%;
 }
 #left img {
-	padding-top: 20px;
+	padding: 20px 0;
 }
 #left a {
 	display: block;
