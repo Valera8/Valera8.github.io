@@ -201,6 +201,9 @@ nav a:hover {
 	img, .big figure img, .timber {
 		width: 100%;
 	}
+	#left img {
+		width: auto;
+	}
 }
 @media screen and (max-width: 514px) and (min-width: 320px) {
 	#left{
@@ -215,6 +218,9 @@ nav a:hover {
 	}
 	img, .big figure img, .timber {
 		width: 100%;
+	}
+	#left img {
+		width: auto;
 	}
 	header {
 		flex-wrap: wrap;
