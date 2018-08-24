@@ -154,6 +154,10 @@ nav a:hover {
 	display: block;
 	text-align: center;
 }
+#left a .feedback {
+	max-width: 158px;
+	padding: 20px 0;
+}
 #news p{
 	margin: 10px 20px;
 	padding-bottom: 5px;
