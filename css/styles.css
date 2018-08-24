@@ -43,6 +43,9 @@ section {
 p{
 	text-indent: 25px;
 }
+button {
+	cursor: pointer;
+}
 a{
 	color: #0000FF;
 }
