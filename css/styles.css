@@ -147,16 +147,12 @@ nav a:hover {
 	padding: 10px;
 	max-width: 21.5%;
 }
-#left img {
-	padding: 20px 0;
-}
 #left a {
 	display: block;
 	text-align: center;
-}
-#left a .feedback {
 	max-width: 158px;
-	padding: 20px 0;
+        padding: 20px 0;
+        margin: 0 auto;
 }
 #news p{
 	margin: 10px 20px;
