@@ -176,6 +176,11 @@ nav a:hover {
 	border-radius: 5px;
 	text-decoration: none;
 }
+footer div {
+	width: 90px;
+	display: block;
+	margin: 0 auto;
+}
 @media screen and (min-width: 1272px) {
 	.right {
 		display: none;
