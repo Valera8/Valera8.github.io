@@ -1,0 +1,11 @@
+User-agent: *
+# Запрещаем индексировать служебные директории GitHub
+Disallow: /.osp/
+Disallow: /fonts/
+Disallow: /vebinar/
+
+# Запрещаем индексировать служебные файлы
+Disallow: /contacts.html
+Disallow: /.gitignore
+Disallow: /README.md
+Disallow: /yandex_2a1b2676b822dcc0.html
