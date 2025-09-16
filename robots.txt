@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /.osp/
+Disallow: /yandex_2a1b2676b822dcc0.html
+Disallow: /README.md
+
+Sitemap: https://karelbir.github.io/sitemap.xml
