@@ -32,6 +32,16 @@ h2{
 	font-weight: bold;
 	font-size: 18px;
 }
+h3{
+	color: #228b90;
+	font-weight: bold;
+	font-size: 16px;
+}
+h4{
+	color: #228b99;
+	font-weight: bold;
+	font-size: 14px;
+}
 hr {
 	margin: 6px auto;
 }
