@@ -2,22 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b446739-f8a0-4886-b3fb-80358ddf6941" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/bilberry_green-small.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/bilberry_green.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/blueberr_2026-06-15.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/blueberr_2026-06-23_big.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/blueberr_2026-06-23_small.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/blueberr_big.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/blueberr_small.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/cloudb_2026-06-15_big.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/cloudb_2026-06-23_big.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/cloudb_2026-06-23_small.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/jam.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/jam_small.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blueberry.html" afterPath="$PROJECT_DIR$/blueberry.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mushrooms.html" afterPath="$PROJECT_DIR$/mushrooms.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/news.html" afterPath="$PROJECT_DIR$/news.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/styles.css" afterPath="$PROJECT_DIR$/css/styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/blueberr_2026-06-15.jpg" afterPath="$PROJECT_DIR$/img/blueberr_2026-06-15.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/blueberr_2026-06-23_big.jpg" afterPath="$PROJECT_DIR$/img/blueberr_2026-06-23_big.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/blueberr_2026-06-23_small.jpg" afterPath="$PROJECT_DIR$/img/blueberr_2026-06-23_small.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/cloudb_2026-06-15_big.jpg" afterPath="$PROJECT_DIR$/img/cloudb_2026-06-15_big.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/daru.html" afterPath="$PROJECT_DIR$/daru.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="6f32bee6-45c0-41e3-96ed-ba0e2c0e395e" name="Failed commit: Default" comment="sitemap.xml" />
@@ -48,10 +37,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="news.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="news.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/news.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.72911394">
+            <state vertical-scroll-proportion="4.3636365">
               <caret line="77" column="65" selection-start-line="77" selection-start-column="65" selection-end-line="77" selection-end-column="65" />
               <folding />
             </state>
@@ -61,7 +50,7 @@
       <file leaf-file-name="blueberry.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blueberry.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
+            <state vertical-scroll-proportion="0.0">
               <caret line="68" column="45" selection-start-line="68" selection-start-column="37" selection-end-line="68" selection-end-column="45" />
               <folding />
             </state>
@@ -82,7 +71,7 @@
         <entry file="file://$PROJECT_DIR$/css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="43" column="1" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
+              <caret line="14" column="6" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -122,11 +111,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="daru.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="daru.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/daru.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="91" column="40" selection-start-line="91" selection-start-column="40" selection-end-line="91" selection-end-column="40" />
+            <state vertical-scroll-proportion="0.58064514">
+              <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -147,12 +136,12 @@
         <option value="$PROJECT_DIR$/robots.txt" />
         <option value="$PROJECT_DIR$/contacts.html" />
         <option value="$PROJECT_DIR$/cranberry.html" />
-        <option value="$PROJECT_DIR$/daru.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/styles.css" />
         <option value="$PROJECT_DIR$/blueberry.html" />
         <option value="$PROJECT_DIR$/mushrooms.html" />
         <option value="$PROJECT_DIR$/news.html" />
+        <option value="$PROJECT_DIR$/daru.html" />
       </list>
     </option>
   </component>
@@ -440,14 +429,20 @@
       <option name="project" value="LOCAL" />
       <updated>1769066609977</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Дополнение новостей, изменение статей">
+      <created>1782398014174</created>
+      <option name="number" value="00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1782398014174</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="1273" y="0" width="1294" height="1399" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24509804" sideWeight="0.4968051" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.4968051" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.73920864" sideWeight="0.5031299" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -494,7 +489,8 @@
     <MESSAGE value="robots.txt" />
     <MESSAGE value="год 2026" />
     <MESSAGE value="seo index.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="seo index.html" />
+    <MESSAGE value="Дополнение новостей, изменение статей" />
+    <option name="LAST_COMMIT_MESSAGE" value="Дополнение новостей, изменение статей" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -795,14 +791,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/daru.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="91" column="40" selection-start-line="91" selection-start-column="40" selection-end-line="91" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -814,14 +802,6 @@
     <entry file="file://$PROJECT_DIR$/img/ev.png">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="43" column="1" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/img/bilberry.jpg">
@@ -857,8 +837,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/news.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.72911394">
+        <state vertical-scroll-proportion="4.3636365">
           <caret line="77" column="65" selection-start-line="77" selection-start-column="65" selection-end-line="77" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="6" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/daru.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.58064514">
+          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
           <folding />
         </state>
       </provider>
